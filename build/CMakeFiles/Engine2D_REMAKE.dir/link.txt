@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Engine2D_REMAKE.dir/src/main.cpp.o CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o -o Engine2D_REMAKE  libglad.a third-party/SDL2-2.32.10/libSDL2main.a third-party/SDL2-2.32.10/libSDL2.a -lm -pthread 

@@ -1,0 +1,12 @@
+/home/rossini/gameengine/build/CMakeFiles/glad.dir
+/home/rossini/gameengine/build/CMakeFiles/Engine2D_REMAKE.dir
+/home/rossini/gameengine/build/CMakeFiles/edit_cache.dir
+/home/rossini/gameengine/build/CMakeFiles/rebuild_cache.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/sdl_headers_copy.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/SDL2main.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/SDL2.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/SDL2-static.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/SDL2_test.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/uninstall.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/edit_cache.dir
+/home/rossini/gameengine/build/third-party/SDL2-2.32.10/CMakeFiles/rebuild_cache.dir
