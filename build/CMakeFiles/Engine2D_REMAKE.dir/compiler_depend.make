@@ -55,11 +55,207 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /home/rossini/gameengine/src/Game.hpp \
   /home/rossini/gameengine/third-party/glad/include/KHR/khrplatform.h \
   /home/rossini/gameengine/third-party/glad/include/glad/glad.h \
+  /home/rossini/gameengine/third-party/glm/glm/common.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_exponential.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_vector_relational.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/exponential.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/vector_relational.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/_fixes.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/compute_common.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_common.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_geometric.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec1.inl \
+  /home/rossini/gameengine/third-party/glm/glm/geometric.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x3.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x4.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x2.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x3.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x4.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x2.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x3.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x4.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_matrix.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat2x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat2x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat3x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat3x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat3x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat4x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat4x3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat4x4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/matrix.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/compute_vector_relational.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/_vectorize.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/compute_vector_decl.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x2.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec2.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec3.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_vec4.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/scalar_int_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/scalar_uint_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float2_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float3_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float4_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int2_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int3_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int4_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint2_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint3_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint4.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint4_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/simd/platform.h \
+  /home/rossini/gameengine/third-party/glm/glm/detail/_fixes.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_integer.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_packing.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/func_trigonometric.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/qualifier.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_half.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_half.inl \
+  /home/rossini/gameengine/third-party/glm/glm/fwd.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/glm.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/scalar_constants.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/scalar_constants.inl \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/constants.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/constants.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_clip_space.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_clip_space.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_projection.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_projection.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_transform.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/matrix_transform.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_relational.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_relational.inl \
+  /home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_float.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_quat.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/detail/type_quat.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_geometric.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_geometric.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_common.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_common.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_double.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_double_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_float.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_float_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_transform.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_transform.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_trigonometric.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/quaternion_trigonometric.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_bool1_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_double1_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_float1_precision.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_int1_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_relational.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_relational.inl \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/ext/vector_uint1_sized.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/epsilon.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/epsilon.inl \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/quaternion.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/quaternion.inl \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/vec1.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/matrix_transform.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/matrix_transform.inl \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/type_ptr.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/gtc/type_ptr.inl \
+  /home/rossini/gameengine/third-party/glm/glm/integer.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/mat2x2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/packing.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/trigonometric.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/vec2.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/vec3.hpp \
+  /home/rossini/gameengine/third-party/glm/glm/vec4.hpp \
+  /home/rossini/gameengine/third-party/stb_image/stb_image.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
+  /usr/include/c++/13/array \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -72,12 +268,16 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/enable_special_members.h \
+  /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
   /usr/include/c++/13/bits/exception_ptr.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/hashtable.h \
+  /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
   /usr/include/c++/13/bits/ios_base.h \
   /usr/include/c++/13/bits/istream.tcc \
@@ -91,6 +291,7 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
   /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/node_handle.h \
   /usr/include/c++/13/bits/ostream.tcc \
   /usr/include/c++/13/bits/ostream_insert.h \
   /usr/include/c++/13/bits/postypes.h \
@@ -101,37 +302,55 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/include/c++/13/bits/requires_hosted.h \
   /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
   /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_tempbuf.h \
+  /usr/include/c++/13/bits/stl_uninitialized.h \
+  /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/cfloat \
+  /usr/include/c++/13/climits \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
   /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/ios \
   /usr/include/c++/13/iosfwd \
@@ -163,13 +382,17 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
+  /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/inttypes.h \
+  /usr/include/limits.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/limits.h \
   /usr/include/locale.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
@@ -198,12 +421,15 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -249,11 +475,13 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -330,6 +558,7 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
@@ -353,6 +582,7 @@ CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o: /home/rossini/gameengine/src/Game
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
@@ -739,646 +969,502 @@ CMakeFiles/Engine2D_REMAKE.dir/src/main.cpp.o: /home/rossini/gameengine/src/main
   /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h
 
+CMakeFiles/Engine2D_REMAKE.dir/src/stb_impl.cpp.o: /home/rossini/gameengine/src/stb_impl.cpp \
+  /home/rossini/gameengine/third-party/stb_image/stb_image.h \
+  /usr/include/alloca.h \
+  /usr/include/assert.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/limits \
+  /usr/include/c++/13/math.h \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdlib.h \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
+  /usr/include/c++/13/type_traits \
+  /usr/include/endian.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/limits.h \
+  /usr/include/linux/limits.h \
+  /usr/include/math.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h
 
-/home/rossini/gameengine/src/main.cpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h:
+/home/rossini/gameengine/src/stb_impl.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h:
+/usr/include/c++/13/bits/cpp_type_traits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x2_precision.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h:
+/usr/include/c++/13/cassert:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
-
-/usr/include/c++/13/debug/assertions.h:
-
-/usr/include/c++/13/cstdio:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h:
-
-/usr/include/c++/13/cmath:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/13/cctype:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_gamecontroller.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_timer.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_shape.h:
-
-/usr/include/c++/13/tr1/gamma.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h:
-
-/usr/include/c++/13/tr1/beta_function.tcc:
-
-/usr/include/c++/13/exception:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/13/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/13/bits/stl_algobase.h:
-
-/usr/include/c++/13/bits/predefined_ops.h:
-
-/usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/c++/13/bits/ios_base.h:
-
-third-party/SDL2-2.32.10/include-config-/SDL2/SDL_config.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
-
-/usr/include/c++/13/bits/invoke.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/c++/13/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/13/typeinfo:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/usr/include/c++/13/ostream:
-
-/usr/include/c++/13/tr1/riemann_zeta.tcc:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h:
 
 /usr/include/c++/13/bits/char_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x2_precision.hpp:
 
-/usr/include/c++/13/bits/basic_string.h:
+/usr/include/c++/13/bits/std_function.h:
 
-/usr/include/c++/13/tr1/poly_laguerre.tcc:
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/c++/13/bits/basic_ios.tcc:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/bits/allocator.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_events.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/new:
-
-/usr/include/inttypes.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_misc.h:
-
-/usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/c++/13/bits/locale_facets.tcc:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_keyboard.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_error.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h:
-
-/usr/include/features.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/c++/13/bits/hash_bytes.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/home/rossini/gameengine/src/Game.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_log.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h:
-
-/usr/include/c++/13/bits/move.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_keycode.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_hidapi.h:
-
-/usr/include/alloca.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_quit.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_cpuinfo.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h:
-
-/usr/include/c++/13/ext/string_conversions.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_guid.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_haptic.h:
-
-/usr/include/string.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_mutex.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_metal.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_sensor.h:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/c++/13/math.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_messagebox.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/c++/13/bits/memory_resource.h:
-
-/usr/include/c++/13/streambuf:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_locale.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_system.h:
-
-/usr/include/c++/13/system_error:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_video.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_main.h:
-
-/usr/include/c++/13/debug/debug.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/13/cstddef:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_filesystem.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_assert.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_platform.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_blendmode.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_hints.h:
-
-/usr/include/c++/13/pstl/pstl_config.h:
-
-/usr/include/c++/13/bits/basic_string.tcc:
-
-/usr/include/c++/13/bit:
-
-/usr/include/c++/13/cwctype:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_mouse.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_touch.h:
-
-/usr/include/c++/13/bits/stl_construct.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_pixels.h:
-
-/usr/include/c++/13/cstdlib:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_power.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
-/usr/include/c++/13/bits/range_access.h:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/13/tr1/hypergeometric.tcc:
+third-party/SDL2-2.32.10/include/SDL2/SDL_pixels.h:
 
-/usr/include/c++/13/type_traits:
+/usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
-/usr/include/c++/13/bits/functional_hash.h:
+/home/rossini/gameengine/src/main.cpp:
 
-/usr/include/errno.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h:
 
-/usr/include/c++/13/bits/nested_exception.h:
+/home/rossini/gameengine/third-party/glm/glm/vec3.hpp:
 
-/usr/include/c++/13/tuple:
+/home/rossini/gameengine/third-party/glm/glm/mat3x2.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_rect.h:
+/home/rossini/gameengine/third-party/glm/glm/mat2x2.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/gtc/quaternion.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_thread.h:
+/home/rossini/gameengine/third-party/glm/glm/vec2.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_double.hpp:
 
-/usr/include/c++/13/bits/refwrap.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint1_sized.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_relational.inl:
 
-third-party/SDL2-2.32.10/include/SDL2/begin_code.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_keyboard.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_transform.hpp:
 
-/usr/include/wchar.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double3_precision.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_gesture.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool1_precision.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_loadso.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool4.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_render.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/c++/13/bits/istream.tcc:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_trigonometric.hpp:
 
-/home/rossini/gameengine/third-party/glad/include/KHR/khrplatform.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_transform.inl:
 
-/usr/include/c++/13/clocale:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_relational.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_rwops.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_transform.hpp:
 
-/usr/include/c++/13/bits/ptr_traits.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_float_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_scancode.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_float.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_surface.h:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/c++/13/ios:
+/home/rossini/gameengine/third-party/glm/glm/gtc/epsilon.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_geometric.inl:
 
-/usr/include/c++/13/bits/locale_facets.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_geometric.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h:
 
-/usr/include/c++/13/bits/specfun.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_relational.inl:
 
-/usr/include/c++/13/bits/streambuf.tcc:
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_stdinc.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_relational.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_clipboard.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_projection.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/integer.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_clip_space.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec2.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_clip_space.hpp:
+
+/usr/include/c++/13/bits/move.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x4_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/fwd.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/scalar_int_sized.hpp:
+
+/usr/include/c++/13/bits/algorithmfwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x2.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/scalar_constants.hpp:
+
+/usr/include/c++/13/bits/functexcept.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/qualifier.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/matrix.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_packing.inl:
+
+/usr/include/c++/13/bits/basic_ios.tcc:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x4_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_integer.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/simd/platform.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint4.hpp:
 
 /usr/include/c++/13/cwchar:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint3.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint2_sized.hpp:
+
+/usr/include/c++/13/exception:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint2.hpp:
+
+/usr/include/linux/limits.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int4_sized.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int3_sized.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int3.hpp:
 
 /usr/include/c++/13/iosfwd:
 
-/home/rossini/gameengine/third-party/glad/include/glad/glad.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_float.hpp:
 
-/usr/include/c++/13/tr1/bessel_function.tcc:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x3.hpp:
 
-/usr/include/c++/13/initializer_list:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int2_sized.hpp:
 
-/usr/include/c++/13/bits/stringfwd.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/c++/13/backward/binders.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int2.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float4_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float2_precision.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_version.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double2_precision.hpp:
 
-/usr/include/c++/13/ext/type_traits.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h:
 
-/usr/include/c++/13/iostream:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double2.hpp:
 
-/usr/include/c++/13/istream:
+/home/rossini/gameengine/third-party/glm/glm/gtc/vec1.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_assert.h:
 
-third-party/SDL2-2.32.10/include/SDL2/close_code.h:
+/usr/include/c++/13/bits/enable_special_members.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool4_precision.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h:
 
-/usr/include/c++/13/stdexcept:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool3.hpp:
 
-/usr/include/c++/13/stdlib.h:
+/home/rossini/gameengine/third-party/glm/glm/gtc/constants.inl:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x2.hpp:
 
-/home/rossini/gameengine/src/Game.cpp:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool2_precision.hpp:
 
-/usr/include/c++/13/string:
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
-/usr/include/features-time64.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x3_precision.hpp:
 
-/usr/include/c++/13/tr1/ell_integral.tcc:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x2.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h:
+/usr/include/string.h:
 
-/usr/include/c++/13/tr1/exp_integral.tcc:
+/home/rossini/gameengine/third-party/glm/glm/mat2x4.hpp:
 
-/usr/include/c++/13/tr1/legendre_function.tcc:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x2_precision.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double4_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_common.inl:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/scalar_uint_sized.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/gtc/quaternion.inl:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x2.hpp:
+
+/usr/include/inttypes.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_gamecontroller.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec4.inl:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_rwops.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x4_precision.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/gtc/matrix_transform.inl:
 
 /usr/include/c++/13/tr1/modified_bessel_func.tcc:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h:
 
-/usr/include/c++/13/bits/exception_defines.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec2.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x4.inl:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h:
+/usr/include/c++/13/string_view:
 
-/usr/include/c++/13/tr1/poly_hermite.tcc:
+/home/rossini/gameengine/third-party/glm/glm/gtc/type_ptr.hpp:
 
-third-party/SDL2-2.32.10/include/SDL2/SDL_joystick.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_projection.hpp:
 
-/usr/include/c++/13/tr1/special_function_util.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_mutex.h:
 
-/usr/include/stdc-predef.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_version.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool1.hpp:
 
-/usr/include/ctype.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float3_precision.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/_vectorize.hpp:
 
-/usr/include/locale.h:
+/usr/include/c++/13/bits/allocator.h:
 
-/usr/include/c++/13/bits/utility.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x3_precision.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/c++/13/unordered_map:
 
-/usr/include/pthread.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_events.h:
 
-/usr/include/wctype.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x4_precision.hpp:
 
-/usr/include/sched.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double3.hpp:
 
-/usr/include/endian.h:
+/usr/include/c++/13/bits/concept_check.h:
 
-/usr/include/stdint.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/scalar_constants.inl:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/stdio.h:
+/home/rossini/gameengine/third-party/glm/glm/vector_relational.hpp:
 
-/usr/include/stdlib.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float4.hpp:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec4.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/compute_vector_relational.hpp:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x2.hpp:
 
 /usr/include/c++/13/bits/stl_iterator.h:
 
@@ -1386,94 +1472,814 @@ third-party/SDL2-2.32.10/include/SDL2/SDL_joystick.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_quat.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x2.hpp:
 
-/usr/include/c++/13/bits/requires_hosted.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x3.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_surface.h:
 
-/usr/include/c++/13/limits:
+third-party/SDL2-2.32.10/include/SDL2/SDL_scancode.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/c++/13/bits/stl_algo.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
+/home/rossini/gameengine/third-party/glm/glm/mat4x4.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+/usr/include/c++/13/ext/type_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h:
+/usr/include/assert.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float2.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec3.inl:
 
-/usr/include/c++/13/string_view:
+/home/rossini/gameengine/third-party/glm/glm/vec4.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+/usr/include/c++/13/debug/assertions.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/c++/13/bits/alloc_traits.h:
 
-/usr/include/time.h:
+/home/rossini/gameengine/third-party/glad/include/KHR/khrplatform.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/c++/13/bits/istream.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_loadso.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/home/rossini/gameengine/third-party/glm/glm/gtc/epsilon.inl:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
+third-party/SDL2-2.32.10/include/SDL2/begin_code.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_thread.h:
 
-/usr/include/c++/13/bits/locale_classes.h:
+third-party/SDL2-2.32.10/include/SDL2/SDL_rect.h:
 
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL_audio.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/asm-generic/errno.h:
-
-third-party/SDL2-2.32.10/include/SDL2/SDL.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/c++/13/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x2.hpp:
 
 third-party/SDL2-2.32.10/include/SDL2/SDL_atomic.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double4.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_cpuinfo.h:
+
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_endian.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_geometric.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x3.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec1.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/compute_vector_decl.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_exponential.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_vector_relational.inl:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_filesystem.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_video.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x3.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/mat3x4.hpp:
+
+/home/rossini/gameengine/src/Game.cpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_system.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/compute_common.hpp:
+
+/usr/include/c++/13/bits/locale_classes.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x2.hpp:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint1.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_hints.h:
+
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/stl_vector.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_messagebox.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_sensor.h:
+
+/home/rossini/gameengine/third-party/stb_image/stb_image.h:
+
+/usr/include/c++/13/bits/specfun.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x3.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_audio.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x4.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_timer.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_touch.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int4.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_render.h:
+
+/usr/include/c++/13/ext/string_conversions.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_haptic.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec1.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_guid.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x4.inl:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float1_precision.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_joystick.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_quit.h:
+
+/usr/include/alloca.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_hidapi.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_keycode.h:
+
+/usr/include/c++/13/bits/cxxabi_init_exception.h:
+
+third-party/SDL2-2.32.10/include/SDL2/close_code.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_error.h:
+
+/usr/include/c++/13/array:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x4.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_misc.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x3.inl:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/home/rossini/gameengine/third-party/glm/glm/mat3x3.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_transform.inl:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/home/rossini/gameengine/third-party/glm/glm/mat4x3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_log.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_quat.inl:
+
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/home/rossini/gameengine/third-party/glm/glm/geometric.hpp:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x3.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat3x2.inl:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x3_precision.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_shape.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h:
+
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x4.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x2.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_blendmode.h:
+
+/usr/include/c++/13/bits/stl_function.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x4.inl:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/common.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_mouse.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/setup.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x4.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/13/bit:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x4.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/gtc/matrix_transform.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x2.inl:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x4.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x3_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x3_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double1.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x2_precision.hpp:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_half.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x4.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x2_precision.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool3_precision.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h:
+
+/usr/include/c++/13/backward/binders.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat2x3.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float3.hpp:
+
+/usr/include/c++/13/bits/ios_base.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x2.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_main.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x3.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float3x4.hpp:
+
+/usr/include/c++/13/istream:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_common.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double4x3.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float4x2_precision.hpp:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/home/rossini/gameengine/src/Game.hpp:
+
+/usr/include/c++/13/functional:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/mat2x3.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_clipboard.h:
+
+/home/rossini/gameengine/third-party/glm/glm/mat4x2.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/13/bits/erase_if.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h:
+
+/usr/include/c++/13/bits/locale_facets.tcc:
+
+/usr/include/c++/13/bits/localefwd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_vec3.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/bits/stl_algobase.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_trigonometric.inl:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_metal.h:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/13/bits/unordered_map.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_locale.h:
+
+/usr/include/c++/13/bits/utility.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h:
+
+/usr/include/c++/13/bits/vector.tcc:
+
+/home/rossini/gameengine/third-party/glm/glm/trigonometric.hpp:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/c++/13/climits:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_float2x4_precision.hpp:
+
+/usr/include/c++/13/cmath:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h:
+
+/usr/include/c++/13/compare:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_power.h:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/cstddef:
+
+/usr/include/c++/13/cstdint:
+
+/usr/include/c++/13/cwctype:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_double_precision.hpp:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/home/rossini/gameengine/third-party/glm/glm/packing.hpp:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/13/initializer_list:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/include/c++/13/cstdlib:
+
+/usr/include/limits.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/c++/13/iostream:
+
+/usr/include/c++/13/limits:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/13/new:
+
+/usr/include/c++/13/ostream:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/tr1/beta_function.tcc:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/home/rossini/gameengine/third-party/glm/glm/glm.hpp:
+
+/usr/include/c++/13/math.h:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/usr/include/c++/13/tr1/legendre_function.tcc:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_double1_precision.hpp:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_gesture.h:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/13/typeinfo:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_platform.h:
+
+/usr/include/c++/13/vector:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_matrix.inl:
+
+/usr/include/c++/13/cfloat:
+
+/usr/include/ctype.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x4.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/float.h:
+
+/usr/include/endian.h:
+
+/usr/include/stdint.h:
+
+/usr/include/errno.h:
+
+/usr/include/c++/13/string:
+
+/usr/include/features.h:
+
+/usr/include/locale.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/pthread.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h:
+
+/usr/include/sched.h:
+
+/usr/include/wctype.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int1.hpp:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/_fixes.hpp:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/strings.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_mat4x3.inl:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_int1_sized.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/func_trigonometric.inl:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/home/rossini/gameengine/third-party/glad/include/glad/glad.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/quaternion_common.inl:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h:
+
+/usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/home/rossini/gameengine/third-party/glm/glm/gtc/constants.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/13/cstdio:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/matrix_double3x3.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/ios:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/home/rossini/gameengine/third-party/glm/glm/exponential.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+third-party/SDL2-2.32.10/include-config-/SDL2/SDL_config.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL.h:
+
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_bool2.hpp:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h:
+
+/usr/include/c++/13/bits/ostream.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
+/home/rossini/gameengine/third-party/glm/glm/detail/type_half.inl:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+/usr/include/c++/13/cstring:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint4_sized.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h:
+
+third-party/SDL2-2.32.10/include/SDL2/SDL_stdinc.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_uint3_sized.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/gtc/type_ptr.inl:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h:
+
+/home/rossini/gameengine/third-party/glm/glm/ext/vector_float1.hpp:
+
+/usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h:

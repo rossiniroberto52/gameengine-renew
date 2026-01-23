@@ -268,6 +268,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine2D_REMAKE.dir/build.make CMakeFiles/Engine2D_REMAKE.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/stb_impl.o: src/stb_impl.cpp.o
+.PHONY : src/stb_impl.o
+
+# target to build an object file
+src/stb_impl.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine2D_REMAKE.dir/build.make CMakeFiles/Engine2D_REMAKE.dir/src/stb_impl.cpp.o
+.PHONY : src/stb_impl.cpp.o
+
+src/stb_impl.i: src/stb_impl.cpp.i
+.PHONY : src/stb_impl.i
+
+# target to preprocess a source file
+src/stb_impl.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine2D_REMAKE.dir/build.make CMakeFiles/Engine2D_REMAKE.dir/src/stb_impl.cpp.i
+.PHONY : src/stb_impl.cpp.i
+
+src/stb_impl.s: src/stb_impl.cpp.s
+.PHONY : src/stb_impl.s
+
+# target to generate assembly for a file
+src/stb_impl.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine2D_REMAKE.dir/build.make CMakeFiles/Engine2D_REMAKE.dir/src/stb_impl.cpp.s
+.PHONY : src/stb_impl.cpp.s
+
 third-party/glad/src/glad.o: third-party/glad/src/glad.c.o
 .PHONY : third-party/glad/src/glad.o
 
@@ -314,6 +338,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/stb_impl.o"
+	@echo "... src/stb_impl.i"
+	@echo "... src/stb_impl.s"
 	@echo "... third-party/glad/src/glad.o"
 	@echo "... third-party/glad/src/glad.i"
 	@echo "... third-party/glad/src/glad.s"

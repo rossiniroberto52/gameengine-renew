@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/rossini/gameengine/src/Game.cpp" "CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Engine2D_REMAKE.dir/src/Game.cpp.o.d"
   "/home/rossini/gameengine/src/main.cpp" "CMakeFiles/Engine2D_REMAKE.dir/src/main.cpp.o" "gcc" "CMakeFiles/Engine2D_REMAKE.dir/src/main.cpp.o.d"
+  "/home/rossini/gameengine/src/stb_impl.cpp" "CMakeFiles/Engine2D_REMAKE.dir/src/stb_impl.cpp.o" "gcc" "CMakeFiles/Engine2D_REMAKE.dir/src/stb_impl.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

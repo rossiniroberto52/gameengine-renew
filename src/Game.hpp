@@ -25,9 +25,12 @@ private:
     void render();
 
     // Setup's
-    void setupTriangle();
+    void setupMesh();
     
     GLuint m_shaderProgram = 0;
     GLuint m_VAO = 0; // Vertex Array Object
     GLuint m_VBO = 0; // Vertex Buffer Object
+    GLuint m_EBO = 0; // Element Buffer Object
+    GLuint m_texture = 0; // Texture
+
 };

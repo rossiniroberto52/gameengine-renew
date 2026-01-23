@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rossini/gameengine/third-party/glad/include -I/home/rossini/gameengine/build/third-party/SDL2-2.32.10/include -I/home/rossini/gameengine/build/third-party/SDL2-2.32.10/include/SDL2 -I/home/rossini/gameengine/build/third-party/SDL2-2.32.10/include-config-/SDL2
+CXX_INCLUDES = -I/home/rossini/gameengine/src -I/home/rossini/gameengine/third-party/glm -I/home/rossini/gameengine/third-party/stb_image -I/home/rossini/gameengine/third-party/glad/include -I/home/rossini/gameengine/build/third-party/SDL2-2.32.10/include -I/home/rossini/gameengine/build/third-party/SDL2-2.32.10/include/SDL2 -I/home/rossini/gameengine/build/third-party/SDL2-2.32.10/include-config-/SDL2
 
 CXX_FLAGS = -std=gnu++17
 
