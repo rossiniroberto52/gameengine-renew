@@ -93,87 +93,104 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, bo
 }
 
 void Game::setupMesh() {
-    // A. Compilação dos Shaders
+    // 1. SHADERS (MANTENHA IGUAL - Copie e cole se precisar, mas é o mesmo)
+    // ... (Compilação dos shaders igualzinha ao anterior) ...
+    // Vou pular a compilação aqui para economizar espaço, mas NÃO APAGUE ELA!
+    // Se você apagou, copie do código anterior.
+    // --------------------------------------------------------------------
     GLuint vertexShader = glCreateShader(GL_VERTEX_SHADER);
     glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
     glCompileShader(vertexShader);
-    // (Dica: Checar erros de compilação aqui seria ideal)
-
     GLuint fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
     glShaderSource(fragmentShader, 1, &fragmentShaderSource, NULL);
     glCompileShader(fragmentShader);
-
     m_shaderProgram = glCreateProgram();
     glAttachShader(m_shaderProgram, vertexShader);
     glAttachShader(m_shaderProgram, fragmentShader);
     glLinkProgram(m_shaderProgram);
-
     glDeleteShader(vertexShader);
     glDeleteShader(fragmentShader);
+    // --------------------------------------------------------------------
 
-    // B. Dados do Quadrado (Vértices e UVs)
+    // 2. VÉRTICES (24 Vértices: 6 Faces x 4 Pontos)
+    // Formato: X, Y, Z, U, V
     float vertices[] = {
-        // posições (X,Y,Z)    // textura (U,V)
-         0.5f,  0.5f, 0.0f,    1.0f, 1.0f, // Topo Direito (0)
-         0.5f, -0.5f, 0.0f,    1.0f, 0.0f, // Baixo Direito (1)
-        -0.5f, -0.5f, 0.0f,    0.0f, 0.0f, // Baixo Esquerdo (2)
-        -0.5f,  0.5f, 0.0f,    0.0f, 1.0f  // Topo Esquerdo (3)
+        // Frente
+        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // 0
+         0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // 1
+         0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // 2
+        -0.5f,  0.5f,  0.5f,  0.0f, 1.0f, // 3
+        // Trás
+        -0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // 4
+         0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // 5
+         0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // 6
+        -0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // 7
+        // Esquerda
+        -0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // 8
+        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // 9
+        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // 10
+        -0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // 11
+        // Direita
+         0.5f,  0.5f,  0.5f,  0.0f, 1.0f, // 12
+         0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // 13
+         0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // 14
+         0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // 15
+        // Topo
+        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // 16
+         0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // 17
+         0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // 18
+        -0.5f,  0.5f,  0.5f,  0.0f, 0.0f, // 19
+        // Base
+        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // 20
+         0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // 21
+         0.5f, -0.5f,  0.5f,  1.0f, 1.0f, // 22
+        -0.5f, -0.5f,  0.5f,  0.0f, 1.0f  // 23
     };
 
-    // C. Índices para o EBO (Dois Triângulos formam o Quadrado)
-    unsigned int indices[] = {  
-        0, 1, 3,  // Primeiro Triângulo
-        1, 2, 3   // Segundo Triângulo
+    // 3. ÍNDICES (36 Índices: 6 Faces x 2 Triângulos x 3 Pontos)
+    unsigned int indices[] = {
+        0, 1, 2, 2, 3, 0,       // Frente
+        4, 5, 6, 6, 7, 4,       // Trás
+        8, 9, 10, 10, 11, 8,    // Esquerda
+        12, 13, 14, 14, 15, 12, // Direita
+        16, 17, 18, 18, 19, 16, // Topo
+        20, 21, 22, 22, 23, 20  // Base
     };
 
-    // D. Geração dos Buffers
     glGenVertexArrays(1, &m_VAO);
     glGenBuffers(1, &m_VBO);
     glGenBuffers(1, &m_EBO);
 
     glBindVertexArray(m_VAO);
 
-    // VBO: Envia os vértices
     glBindBuffer(GL_ARRAY_BUFFER, m_VBO);
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
-    // EBO: Envia os índices
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, m_EBO);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    // E. Configuração dos Atributos (Layout)
-    // Atributo 0: Posição (3 floats)
     glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
-    // Atributo 1: Textura (2 floats) - Offset de 3 floats
     glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
 
-    // F. Carregamento da Textura
+    // 4. TEXTURA (MANTENHA IGUAL)
+    // ... (Copie o carregamento da textura wall.jpg aqui) ...
     glGenTextures(1, &m_texture);
     glBindTexture(GL_TEXTURE_2D, m_texture);
-
-    // Configura Repetição e Filtro
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-
-    // Carrega a imagem do disco
     int width, height, nrChannels;
-    stbi_set_flip_vertically_on_load(true); // Corrige o Y invertido do OpenGL
+    stbi_set_flip_vertically_on_load(true);
     unsigned char *data = stbi_load("wall.jpg", &width, &height, &nrChannels, 0);
-    
     if (data) {
-        // Detecta se é JPG (RGB) ou PNG (RGBA)
         GLenum format = (nrChannels == 4) ? GL_RGBA : GL_RGB;
         glTexImage2D(GL_TEXTURE_2D, 0, format, width, height, 0, format, GL_UNSIGNED_BYTE, data);
         glGenerateMipmap(GL_TEXTURE_2D);
-    } else {
-        std::cerr << "FALHA CRÍTICA: Não foi possível carregar wall.jpg" << std::endl;
     }
-    
     stbi_image_free(data);
 }
 
@@ -205,6 +222,34 @@ void Game::processInput() {
             m_isRunning = false;
         }
     }
+
+    // --- LEITURA DO TECLADO (ESTADO CONTÍNUO) ---
+    const Uint8* state = SDL_GetKeyboardState(NULL);
+
+    // Velocidade da câmera (ajustada pelo "feeling", idealmente usaria deltaTime aqui)
+    float cameraSpeed = 0.05f; 
+
+    // W = Frente
+    if (state[SDL_SCANCODE_W]) {
+        cameraPos += cameraSpeed * cameraFront;
+    }
+    // S = Trás
+    if (state[SDL_SCANCODE_S]) {
+        cameraPos -= cameraSpeed * cameraFront;
+    }
+    // A = Esquerda (Normalizamos o produto vetorial para não andar mais rápido na diagonal)
+    if (state[SDL_SCANCODE_A]) {
+        cameraPos -= glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
+    }
+    // D = Direita
+    if (state[SDL_SCANCODE_D]) {
+        cameraPos += glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
+    }
+    
+    // ESC para sair rápido
+    if (state[SDL_SCANCODE_ESCAPE]) {
+        m_isRunning = false;
+    }
 }
 
 void Game::update(float deltaTime) {
@@ -212,48 +257,36 @@ void Game::update(float deltaTime) {
 }
 
 void Game::render() {
-    // 1. Limpa Cor e Profundidade (Z-Buffer)
-    // Se não limpar o DEPTH, o 3D buga e um lado atravessa o outro.
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    // Limpa COR e PROFUNDIDADE
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 
     glUseProgram(m_shaderProgram);
 
-    // --- 1. PROJECTION (A Lente da Câmera) ---
-    // Resolve o problema do achatamento!
-    // FOV: 45 graus
-    // Aspect Ratio: 800 / 600 (Dimensões da sua janela)
-    // Near/Far: Só desenha o que estiver entre 0.1 e 100.0 unidades de distância
+    // Projection
     glm::mat4 projection = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
-    
-    unsigned int projLoc = glGetUniformLocation(m_shaderProgram, "projection");
-    glUniformMatrix4fv(projLoc, 1, GL_FALSE, glm::value_ptr(projection));
+    glUniformMatrix4fv(glGetUniformLocation(m_shaderProgram, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
 
-    // --- 2. VIEW (A Posição da Câmera) ---
-    // Movemos o MUNDO 3 unidades para trás (-3 no Z), o que dá a ilusão
-    // de que a câmera foi 3 unidades para trás.
-    glm::mat4 view = glm::mat4(1.0f);
-    view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
-    
-    unsigned int viewLoc = glGetUniformLocation(m_shaderProgram, "view");
-    glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+    // View (Câmera)
+    glm::mat4 view = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+    glUniformMatrix4fv(glGetUniformLocation(m_shaderProgram, "view"), 1, GL_FALSE, glm::value_ptr(view));
 
-    // --- 3. MODEL (O Objeto) ---
-    // Gira o quadrado no eixo (0.5, 1.0, 0.0) para ficar mais estiloso
+    // Model (Cubo Girando)
     glm::mat4 model = glm::mat4(1.0f);
     float time = SDL_GetTicks() / 1000.0f;
-    model = glm::rotate(model, time, glm::vec3(0.5f, 1.0f, 0.0f));
+    // Gira em X e Y para mostrar todas as faces
+    model = glm::rotate(model, time, glm::vec3(0.5f, 1.0f, 0.0f)); 
+    glUniformMatrix4fv(glGetUniformLocation(m_shaderProgram, "model"), 1, GL_FALSE, glm::value_ptr(model));
 
-    // ATENÇÃO: O nome no shader mudou de "transform" para "model"
-    unsigned int modelLoc = glGetUniformLocation(m_shaderProgram, "model");
-    glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
-
-    // --- 4. DESENHAR ---
     glActiveTexture(GL_TEXTURE0);
     glBindTexture(GL_TEXTURE_2D, m_texture);
 
     glBindVertexArray(m_VAO);
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+    
+    // --- MUDANÇA CRÍTICA AQUI ---
+    // Agora desenhamos 36 vértices (6 faces * 2 triângulos * 3 pontas)
+    glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_INT, 0);
+    // ----------------------------
 
     SDL_GL_SwapWindow(m_window);
 }

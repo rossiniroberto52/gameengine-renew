@@ -1,7 +1,9 @@
 #pragma once // Garante que o arquivo só seja incluído uma vez
 #include <glad/glad.h> // opengl build
 #include <SDL.h> // Necessário para saber o que é SDL_Window*
+#include <glm/glm.hpp> // Biblioteca de Matemática
 #include <iostream>
+
 
 class Game {
 public:
@@ -32,5 +34,9 @@ private:
     GLuint m_VBO = 0; // Vertex Buffer Object
     GLuint m_EBO = 0; // Element Buffer Object
     GLuint m_texture = 0; // Texture
+
+    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f,  3.0f); // Começa afastado (Z=3)
+    glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f); // Olha para frente (Z negativo)
+    glm::vec3 cameraUp    = glm::vec3(0.0f, 1.0f,  0.0f); // Onde fica o "céu"
 
 };
