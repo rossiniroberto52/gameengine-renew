@@ -422,6 +422,8 @@ CMakeFiles/Engine2D_REMAKE.dir/src/main.cpp.o: /home/rossini/gameengine/src/main
   third-party/SDL2-2.32.10/include/SDL2/begin_code.h \
   third-party/SDL2-2.32.10/include/SDL2/close_code.h \
   /home/rossini/gameengine/src/Game.hpp \
+  /home/rossini/gameengine/third-party/glad/include/KHR/khrplatform.h \
+  /home/rossini/gameengine/third-party/glad/include/glad/glad.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

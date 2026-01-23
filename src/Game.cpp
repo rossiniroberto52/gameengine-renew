@@ -13,10 +13,10 @@ const char* vertexShaderSource = "#version 330 core\n"
 // Fragment Shader: Define a cor final (Laranja aqui)
 const char* fragmentShaderSource = "#version 330 core\n"
     "out vec4 FragColor;\n"
-    "uniform vec4 ourColor;\n"
+    "uniform vec4 ourColor;\n" // Variável que vem do C++
     "void main()\n"
     "{\n"
-    "   FragColor = vec4(1.0f, 0.5f, 0.2f, 1.0f);\n"
+    "   FragColor = ourColor;\n" // <--- USAR A VARIÁVEL AQUI
     "}\n\0";
 
 // --- IMPLEMENTAÇÃO ---
@@ -160,8 +160,14 @@ void Game::render() {
 
     // --- DESENHAR ---
     glUseProgram(m_shaderProgram); // 1. Use o Shader
-    glBindVertexArray(m_VAO);      // 2. Use o layout do triângulo
-    glDrawArrays(GL_TRIANGLES, 0, 3); // 3. Desenhe 3 vértices
+    float  timeValue = SDL_GetTicks() / 1000.0f;
+    float greenValue = (std::sin(timeValue)/2.0f)+0.5f;
+
+    int vertexColorLocation = glGetUniformLocation(m_shaderProgram, "ourColor");
+    glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
+
+    glBindVertexArray(m_VAO); // 2. Bind do VAO
+    glDrawArrays(GL_TRIANGLES, 0, 3);
 
     SDL_GL_SwapWindow(m_window);
 }
