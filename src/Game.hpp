@@ -1,42 +1,48 @@
-#pragma once // Garante que o arquivo só seja incluído uma vez
-#include <glad/glad.h> // opengl build
-#include <SDL.h> // Necessário para saber o que é SDL_Window*
-#include <glm/glm.hpp> // Biblioteca de Matemática
-#include <iostream>
+#pragma once
 
+// GLAD deve vir ANTES de qualquer include que tenha OpenGL (como SDL)
+#include <glad/glad.h> 
+
+#include <SDL.h>
+#include <iostream>
+#include <glm/glm.hpp> // GLM para matemática vetorial
 
 class Game {
 public:
-    Game();  // Construtor
-    ~Game(); // Destrutor (Limpa a memória)
+    Game();
+    ~Game();
 
-    // A função de inicialização não retorna a janela, retorna se DEU CERTO (bool)
     bool init(const char* title, int xpos, int ypos, int width, int height, bool fullscreen);
-    
-    // Onde o jogo roda (Update, Render)
     void run();
 
 private:
+    // Janela e Contexto
     SDL_Window* m_window = nullptr;
     SDL_GLContext m_context = nullptr;
     bool m_isRunning = false;
 
-    // Funções internas
-    void processInput();
-    void update(float deltaTime); // Olha o DeltaTime aqui!
+    // Funções Internas
+    // ATENÇÃO: Agora processInput recebe deltaTime
+    void processInput(float deltaTime); 
+    void update(float deltaTime);
     void render();
 
-    // Setup's
+    // Setup Gráfico
     void setupMesh();
-    
+
+    // IDs do OpenGL
     GLuint m_shaderProgram = 0;
-    GLuint m_VAO = 0; // Vertex Array Object
-    GLuint m_VBO = 0; // Vertex Buffer Object
-    GLuint m_EBO = 0; // Element Buffer Object
-    GLuint m_texture = 0; // Texture
+    GLuint m_VAO = 0; // Vertex Array
+    GLuint m_VBO = 0; // Vertex Buffer
+    GLuint m_EBO = 0; // Element Buffer
+    GLuint m_texture = 0; // Textura
 
-    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f,  3.0f); // Começa afastado (Z=3)
-    glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f); // Olha para frente (Z negativo)
-    glm::vec3 cameraUp    = glm::vec3(0.0f, 1.0f,  0.0f); // Onde fica o "céu"
+    // --- CÂMERA (VETORES) ---
+    glm::vec3 cameraPos   = glm::vec3(0.0f, 0.0f,  3.0f);
+    glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+    glm::vec3 cameraUp    = glm::vec3(0.0f, 1.0f,  0.0f);
 
+    // --- CÂMERA (ROTAÇÃO / MOUSE) ---
+    float yaw   = -90.0f; // Rotação Horizontal
+    float pitch =   0.0f; // Rotação Vertical
 };

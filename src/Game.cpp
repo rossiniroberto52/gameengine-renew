@@ -88,6 +88,9 @@ bool Game::init(const char* title, int xpos, int ypos, int width, int height, bo
     // 7. Configura a Mesh
     setupMesh();
 
+    // Trava o mouse na janela e o esconde
+    SDL_SetRelativeMouseMode(SDL_TRUE);
+
     m_isRunning = true;
     return true;
 }
@@ -195,41 +198,75 @@ void Game::setupMesh() {
 }
 
 void Game::run() {
-    Uint64 lastTime = SDL_GetTicks64();
+    // 1. Pega a frequência do processador (contagens por segundo)
+    Uint64 perfFreq = SDL_GetPerformanceFrequency();
+    
+    // 2. Pega o contador atual
+    Uint64 lastTime = SDL_GetPerformanceCounter();
     Uint64 currentTime;
 
     while (m_isRunning) {
-        // Cálculo do DeltaTime
-        currentTime = SDL_GetTicks64();
-        float deltaTime = (currentTime - lastTime) / 1000.0f;
+        // 3. Novo cálculo de tempo (Alta Precisão)
+        currentTime = SDL_GetPerformanceCounter();
+        
+        // (Atual - Antigo) / Frequência = Segundos exatos (double precision)
+        float deltaTime = (float)(currentTime - lastTime) / (float)perfFreq;
+        
         lastTime = currentTime;
 
-        processInput();
+        // Trava de segurança: Se o PC travar, não deixa o deltaTime ser gigante
+        if (deltaTime > 0.05f) deltaTime = 0.05f;
+
+        processInput(deltaTime);
         update(deltaTime);
         render();
     }
     
-    // Limpeza
     SDL_GL_DeleteContext(m_context);
     SDL_DestroyWindow(m_window);
     SDL_Quit();
 }
 
-void Game::processInput() {
+void Game::processInput(float deltaTime) {
     SDL_Event event;
     while (SDL_PollEvent(&event)) {
+        // 1. Evento de Fechar Janela
         if (event.type == SDL_QUIT) {
             m_isRunning = false;
         }
+
+        // 2. Lógica do MOUSE (Olhar ao redor)
+        if (event.type == SDL_MOUSEMOTION) {
+            float sensitivity = 0.1f; // Ajuste se estiver muito rápido/lento
+            
+            // Pega o quanto o mouse moveu
+            float xoffset = event.motion.xrel * sensitivity;
+            float yoffset = -event.motion.yrel * sensitivity; // Invertido (Y para cima aumenta)
+
+            yaw   += xoffset;
+            pitch += yoffset;
+
+            // Trava o pescoço para não dar cambalhota (Gimbal Lock)
+            if (pitch > 89.0f) pitch = 89.0f;
+            if (pitch < -89.0f) pitch = -89.0f;
+
+            // Recalcula o vetor Frente (Matemática de Euler)
+            glm::vec3 front;
+            front.x = cos(glm::radians(yaw)) * cos(glm::radians(pitch));
+            front.y = sin(glm::radians(pitch));
+            front.z = sin(glm::radians(yaw)) * cos(glm::radians(pitch));
+            cameraFront = glm::normalize(front);
+        }
     }
 
-    // --- LEITURA DO TECLADO (ESTADO CONTÍNUO) ---
+    // --- LEITURA DO TECLADO (MOVIMENTO) ---
     const Uint8* state = SDL_GetKeyboardState(NULL);
 
-    // Velocidade da câmera (ajustada pelo "feeling", idealmente usaria deltaTime aqui)
-    float cameraSpeed = 0.05f; 
+    // CORREÇÃO CRÍTICA: Multiplicar pelo deltaTime
+    // 2.5f = 2.5 metros por segundo. Ajuste esse valor para andar mais rápido.
+    float cameraSpeed = 2.5f * deltaTime; 
 
-    // W = Frente
+    // W = Frente (Na direção que a câmera aponta)
     if (state[SDL_SCANCODE_W]) {
         cameraPos += cameraSpeed * cameraFront;
     }
@@ -237,7 +274,7 @@ void Game::processInput() {
     if (state[SDL_SCANCODE_S]) {
         cameraPos -= cameraSpeed * cameraFront;
     }
-    // A = Esquerda (Normalizamos o produto vetorial para não andar mais rápido na diagonal)
+    // A = Esquerda (Produto Vetorial da Frente x Cima = Vetor da Direita)
     if (state[SDL_SCANCODE_A]) {
         cameraPos -= glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
     }
@@ -246,7 +283,7 @@ void Game::processInput() {
         cameraPos += glm::normalize(glm::cross(cameraFront, cameraUp)) * cameraSpeed;
     }
     
-    // ESC para sair rápido
+    // ESC para sair
     if (state[SDL_SCANCODE_ESCAPE]) {
         m_isRunning = false;
     }
